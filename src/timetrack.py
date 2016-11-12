@@ -9,7 +9,7 @@ from modules.ManagementThread import *
 from modules.utils import *
 
 
-NAME = 'Daniel Jankowski'
+NAME = ''
 
 
 def main():
