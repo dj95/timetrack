@@ -30,9 +30,7 @@ Track your time easily with an usb stick.
 ### Usage
 
 - Start the daemon with
-  `sudo systemctl start timetrack.service`
-- *Optional:* Enable the timetrack-service at boot with
-  `sudo systemctl enable timetrack.service`
+  `systemctl --user start timetrack.service`
 - Stick in the usb-stick to start the work time and remove it
   to stop the work time.
 - Alternatively you are able to start and stop the work time 

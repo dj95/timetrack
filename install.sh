@@ -18,12 +18,9 @@ cp ./src/modules/html/style.css ~/Timetrack/.
 
 # copy the systemd-service
 echo "==> Copy the systemd-service"
-sudo cp timetrack.service /etc/systemd/system/.
+mkdir -p ~/.config/systemd/user/
+sudo cp timetrack.service ~/.config/systemd/user/.
 
 # remove current directory
 echo "==> Remove the current directory"
-rm -r "../${PWD##*/}"
-
-# move to the installation directory
-echo "==> Move to the new installation directory"
-mv /opt/Timetrack
+sudo rm -rf "../${PWD##*/}"

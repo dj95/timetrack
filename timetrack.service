@@ -3,7 +3,7 @@ Description=Timetracking daemon
 
 [Service]
 Type=simple
-ExecStart=/opt/timetrack/src/timetrack.py
+ExecStart=/opt/Timetrack/src/timetrack.py
 
 [Install]
 WantedBy=multi-user.target
