@@ -3,6 +3,7 @@ Description=Timetracking daemon
 
 [Service]
 Type=simple
+WorkingDirectory=/opt/Timetrack/src/
 ExecStart=/opt/Timetrack/src/timetrack.py
 
 [Install]

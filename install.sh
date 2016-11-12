@@ -12,8 +12,8 @@ sudo cp -R * /opt/Timetrack/.
 
 # create data directory
 echo "==> Create the data directory in ~/Timetrack/"
-mkdir -p "~/Timetrack/"
-mkdir -p "~/Timetrack/data/"
+mkdir -p ~/Timetrack/
+mkdir -p ~/Timetrack/data/
 cp ./src/modules/html/style.css ~/Timetrack/.
 
 # copy the systemd-service
